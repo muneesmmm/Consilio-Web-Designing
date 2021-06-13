@@ -1,0 +1,130 @@
+
+body{
+    background-image: background-image:url("https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position:center;
+}
+.a1{
+    height:550px;
+    width:350px;
+    background-color: white;
+    border-radius:5px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+#a4{
+    padding-left:160px;
+    color:rgb(161, 156, 156);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+   }
+#a5{
+    height:30px;
+    border:none;
+    background-image:linear-gradient(to right,rgb(9, 205, 219),rgb(153, 105, 230),rgb(255, 0, 255)); 
+    color: white;
+    border-radius:15px;
+    width: 7cm;  
+    cursor:pointer;
+    font-weight: bold;
+  }
+#a6{
+    color:rgb(141, 131, 131);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight: bold;
+   }
+#a7{
+    color:rgb(56, 54, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+   }
+.fa {
+     padding: 10px;
+     font-size:0px;
+     width:35px;
+     text-align: center;
+     text-decoration: none;
+     margin: 2px 2px;
+     border-radius:50%;
+    }
+  
+.fa:hover {
+            opacity: 0.7;
+          }
+  
+.fa-facebook {
+               background: #3B5998;
+               color: white;
+             }
+  
+.fa-twitter {
+               background: #55ACEE;
+               color: white;
+            }
+  
+.fa-google {
+               background: #dd4b39;
+               color: white;
+           }
+.focus-input100::after {
+            content: attr(data-symbol);
+            font-family: Material-Design-Iconic-Font;
+            color: #adadad;
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            height: calc(100% - 20px);
+            bottom: 0;
+            left: 0;
+            padding-left: 13px;
+            padding-top: 3px;
+            
+          } 
+.wrap-input100 {
+            width: 75%;
+            position: relative;
+            border-bottom: 2px solid #d9d9d9;
+            text-align: left;
+            height:55px
+          }
+.input100:focus{
+           outline: none;
+
+} 
+.input100 {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-weight:bold;
+            color:#333333;
+            border:0;
+            display: block;
+            width: 100%;
+            height: 30px;
+            background: transparent;
+            padding: 0 7px 0 43px;
+            
+          }  
+.label-input100 {
+            font-family:Arial, Helvetica, sans-serif;;
+            font-size: 13px;
+            color:#333333 ;
+            font-weight:lighter;
+            padding-left: 2px;
+            line-height: 1.5px;
+          }
+::placeholder{
+  color: #adadad;
+  opacity: 1;
+}
+.b2{
+  font-weight:bolder;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 26px;
+}
